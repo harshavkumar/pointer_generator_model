@@ -3,12 +3,12 @@
 One more thing though, I've removed ROUGE function for evaluation of model, pyrouge library seems to be have been deprecated. Please raise an issue if you must know how to still use that evaluation metric, i'll guide you out. 
 
 # Environment
-•	Tensorflow 1.11+
-•	Nltk
-•	Windows 10 64 bit
-•	Python 3.6
-•	CUDA Toolkit 9.0
-•	cuDNN v7.2.
+#### •	Tensorflow 1.11+
+#### •	Nltk
+#### •	Windows 10 64 bit
+#### •	Python 3.6
+#### •	CUDA Toolkit 9.0
+#### •	cuDNN v7.2.
 
 # Approach to Problem:
 ## 1.	Dataset:
@@ -31,12 +31,12 @@ For carry out Summarization, implementation of pre-trained weights is used gener
 
 # Major Changes:
 Carry out the help from the TextSum Google Tensorflow research module. And successfully converted for Tensorflow 1.11+ and changed the hyper-parameters for better accuracy 
-•	Batch_size = 10
-•	LSTM hidden Units :256
-•	Vocabulary size: 5000
-•	Encoding layers: 4
-•	Max TimeStamp for Encoder : 400
-•	Max TimeStamp for Decoder: 100
+#### •	Batch_size = 10
+#### •	LSTM hidden Units :256
+#### •	Vocabulary size: 5000
+#### •	Encoding layers: 4
+#### •	Max TimeStamp for Encoder : 400
+#### •	Max TimeStamp for Decoder: 100
 
 
 # How to run:
@@ -48,7 +48,7 @@ Carry out the help from the TextSum Google Tensorflow research module. And succe
 
   4. Again, I've previously mentioned how to make your own dataset out of your text file, you can use bin_vocab_creation.py file to do so!!! 
 
-  5. it is decendent of the from TextSum Google Tensorflow Reasearch module[here](https://github.com/tensorflow/models/tree/master/research/textsum)
+  5. it is decendent of the from TextSum Google Tensorflow Reasearch module [here](https://github.com/tensorflow/models/tree/master/research/textsum)
 
 
 
